@@ -1,0 +1,646 @@
+/* Colors :
+
+ * Green #33cc66
+ * Orange #fe7f13
+ * Blue #2498f4
+ * Dark blue: #194b73
+ * Dark grey #777777 */
+
+
+@font-face
+{
+font-family: Myriad Pro;
+src: url("assets/fonts/myriadpro.OTF");
+}
+/* Generic selectors */
+
+body {
+    font-family: "Myriad Pro";
+}
+
+
+a:link {
+    color: #2498f4;
+    text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+    text-align: center;
+
+}
+
+p {
+  font-family: "Myriad Pro";
+  font-size: 14px;
+}
+
+h1 {
+  font-family: "Myriad Pro";
+  font-size: 36px;
+  
+}
+
+h2 {
+  color: #2498f4;
+  font-family: "Myriad Pro";
+  font-size: 32px;
+}
+
+h3 {
+  font-family: "Myriad Pro";
+  font-size: 21px;
+}
+
+h4 {
+  font-family: "Myriad Pro";
+  font-size: 16px;
+}
+
+h5 {
+  font-family: "Myriad Pro";
+  font-size: 10px;
+}
+
+img {
+    margin:0 0 0 0;
+}
+/* Structural ids */
+
+#blueheader {
+    padding-top: 10px;
+    padding-right:50px;
+  background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.67, #1E87DD),
+	color-stop(1, #2497F4)
+  );
+  
+  background-image: -o-linear-gradient(bottom, #1E87DD 67%, #2497F4 100%);
+  background-image: -moz-linear-gradient(bottom, #1E87DD 67%, #2497F4 100%);
+  background-image: -webkit-linear-gradient(bottom, #1E87DD 67%, #2497F4 100%);
+  background-image: -ms-linear-gradient(bottom, #1E87DD 67%, #2497F4 100%);
+  background-image: linear-gradient(to bottom, #1E87DD 67%, #2497F4 100%);
+    color: white;
+    margin-bottom: 0px;
+    height: 40px;
+}
+
+#nav {
+  background-image: url("assets/images/stripes.png");
+  margin-top: 0px;
+}
+#nav li a {
+  background-image: url("assets/images/sprite.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  list-style-type: none;
+  height: 100px;
+  text-indent: -9999px;
+  margin: 0px 0px 0px 0px;
+  }
+
+#blueheader a:link {
+    color: white;
+}
+
+#blueheader a:hover {
+    color: #2498f4;
+}
+
+#blueheader a:visited {
+    color:white;
+}
+#nav li a.item1 {
+  width: 100px;
+  background-position:0px 0px; 
+  }
+
+#nav li a:hover.item1 {
+  background-position: 0px -100px;
+  }
+
+#nav li a:active.item1 {
+  background-position: 0px -200px;
+}
+#nav li a.item2 {
+  width: 100px;
+  background-position: -88px 0px;
+}
+
+#nav li a:hover.item2 {
+  background-position: -88px -100px;
+}
+
+#nav li a:active.item2 {
+  background-position: -88px -200px;
+}
+
+#nav li a.item3 {
+  width: 100px;
+  background-position: -180px 0px;
+}
+
+#nav li a:hover.item3 {
+  background-position: -180px -100px;
+}
+
+
+#nav li a:active.item3 {
+  background-position: -180px -200px;
+}
+
+#nav li a.item4 {
+  width: 100px;
+  background-position: -250px 0px;
+}
+
+#nav li a:hover.item4 {
+  background-position: -250px -100px;
+}
+
+#nav li a:active.item4 {
+  background-position: -250px -200px;
+}
+
+#nav li a.item5 {
+  width: 100px;
+  background-position: -350px 0px;
+}
+
+#nav li a:hover.item5 {
+  background-position: -350px -100px;
+}
+
+#nav li a:active.item5 {
+  background-position: -350px -200px;
+}
+
+#nav li a.item6 {
+  width: 100px;
+  background-position: -450px 0px;
+}
+
+#nav li a:hover.item6 {
+  background-position: -450px -100px;
+}
+
+#nav li a:active.item6 {
+  background-position: -450px -200px;
+}
+
+#greenbox {
+background-color: #33cc66;
+border-radius: 15px;
+color: white;
+padding: 20px;
+margin-top: 20px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 20px;
+}
+
+#announcements {
+  color: #fe7f13;
+}
+
+#tasks {
+    margin-bottom:20px;
+    margin-top: 10px;
+}
+
+
+
+
+#didyouknowbox {
+    background-color: #2498f4;
+    border-radius: 7px;
+    color: white;
+    font-family: "Myriad pro";
+    margin-bottom:20px;
+    margin-left: 80px;
+    margin-right: 30px;
+    margin-top: 0px;
+    padding: 20px 20px 10px 50px;
+    width: 80%;
+}
+
+#back {
+  position: absolute;
+  top: 30%;
+  left:0em;
+  z-index:10;
+
+}
+
+#next {
+  position: absolute;
+  top: 30%;
+  right: 0em;
+  z-index:11;
+
+}
+
+#bluebox {
+    background-color: #2498f4;
+    margin-left:0px;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+
+}
+
+
+#image1 {
+    position:absolute;
+    top: 0px;
+    left: -50px;
+    width:100%;
+    margin-right: 20px;
+    margin-left: 30px
+}
+
+#watch {
+    color: #33cc66;
+    font-size:20px;
+    position:absolute;
+    top:40px;
+    left:90px;
+    width:100%;
+ }
+ 
+#message {
+    color: black;
+    position:absolute;
+    top:100px;
+    left:80px;
+    width:100%;
+}
+ 
+#image2 {
+    position:absolute;
+    top: -10px;
+    left: -30px;
+    width:100%;
+    margin-right: 20px;
+    margin-left: 30px;
+
+}
+
+
+#see {
+    color:white;
+    font-size:16px;
+    background-color: #33cc66;
+    padding:5px 5px 5px 5px;
+    border-radius:5px;
+    position:absolute;
+    width: 260px;
+    top:70px;
+    left:10px;
+}
+
+#image3 {
+    position:absolute;
+    top: 0px;
+    left: -3px;
+    width:100%;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+#version {
+    color:#ff6600;
+    font-size:18px;
+    position :absolute;
+    top:30px;
+    left:10px;
+}
+
+#facebookicon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image:url("assets/images/facebookicongray.png");
+  text-indent:-9999px;
+}
+
+#facebookicon:hover{
+  background-image:url("assets/images/facebookicon.png")
+}
+
+#twittericon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image:url("assets/images/twittericongray.png");
+  text-indent:-9999px;
+}
+
+#twittericon:hover{
+  background-image:url("assets/images/twittericon.png")
+}
+
+#foursquareicon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image:url("assets/images/foursquareicongray.png");
+  text-indent:-9999px;
+}
+
+#foursquareicon:hover{
+  background-image:url("assets/images/foursquareicon.png")
+}
+
+#youtubeicon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image:url("assets/images/youtubeicongray.png");
+  text-indent:-9999px;
+}
+
+#youtubeicon:hover{
+  background-image:url("assets/images/youtubeicon.png")
+}
+/* Universal classes */
+
+.mini {
+    border-right:1px solid gray;
+    padding-right:0.5em;
+
+}
+
+.form-control {
+  display: inline;
+  width: 18em;
+  max-width:100%;
+  height: 34px;
+  background-image: url("assets/images/search.png");
+  background-repeat:no-repeat;
+  background-position: 15.5em 0.5em;
+  float: right;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+
+}
+
+
+#transparentbox {
+    background-color:transparent;
+    padding-left:5em;
+    padding-top:3em;
+}
+
+.emptybox {
+  border-right: 1px solid #cccccc;
+  background-color: white;
+}
+
+.decoleft {
+  position:relative;
+  bottom: -60px;
+  right: 95px;
+}
+
+.decoright {
+  position:relative;
+  bottom: 3px;
+  left:120px;
+  margin:0px;
+}
+
+.profiles {
+  position: relative;
+  left: 65px;
+  
+}
+
+.announcementbox {
+  padding-top: 10px;
+}
+
+
+.gridbox {
+    border: 1px solid #cccccc;
+    background-color: white;
+    margin-bottom:10px;
+
+}
+
+.tasks {
+    padding-bottom:15px;
+    padding-top:15px;
+    border-bottom: 1px solid #cccccc;
+}
+.numbers {
+    background-color: #33cc66;
+    border-radius:50%;
+    color: white;
+    font-size:20px;
+    padding: 7px 10px 5px 10px ;
+    margin-right: 15px;
+    
+}
+.topborder {
+    border-top: 1px solid #cccccc;
+}
+.bottomborder {
+    border-bottom: 1px solid #cccccc;
+}
+.leftborder {
+    border-left: 1px solid #cccccc;
+}
+.rightborder {
+    border-right:1px solid #cccccc;
+}
+
+.recommendations {
+  float: left;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+.graybackground {
+    background-color: gray;
+    border-radius: 15px;
+}
+.text-right {
+  text-align:right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align:left;
+}
+
+.inline {
+  display: inline;
+}
+
+.whitebox {
+    position:relative;
+    top:-40px;
+    height:14em;
+    width:16em;
+    text-align: center;
+    border-radius:7px;
+    border-top: none;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    font-family: "Myriad Pro";
+    
+}
+
+.bluelabels {
+    position:relative;
+    top:38px;
+    background-color: #2498f4;
+    width:15.85em;
+    height:3.5em;
+    margin-top:0px;
+    color:white;
+    font-family:"Myriad Pro";
+}
+
+.titles {
+    color:#999999;
+}
+
+.blueheadlines {
+    color: white;
+    font-family: "Myriad Pro";
+    font-size:21px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.imagebox {
+    background-color:white;
+    height:160px;
+    width:280px;
+    border-radius:7px;
+    margin-right: 20px;
+    margin-left: 30px
+}
+
+.littlebox {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+
+  
+}
+.leftline
+    {
+    border-left: 1px solid black;
+    padding-left: 5px;
+    margin-left: 50px;
+    }
+    
+
+.facebook {
+    color: white;
+    background-color: #114570;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width:80px;
+    height:20px;
+    text-align:center;
+    padding: 2px 4px 2px 4px;
+}
+
+.twitter {
+    color:white;
+    background-color: #2298f4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+        width:80px;
+    height:20px;
+    text-align:center;
+    padding: 2px 4px 2px 4px;
+}
+
+.foursquare {
+    color: white;
+    background-color: #3a599b;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+        width:80px;
+    height:20px;
+    text-align:center;
+        padding: 2px 4px 2px 4px;
+}
+
+.google {
+    color: white;
+    background-color: #31cc66;
+    width:50px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+        width:80px;
+    height:20px;
+    text-align:center;
+        padding: 2px 4px 2px 4px;
+}
+
+.footer {
+    text-align:center;
+    box-shadow: 0px 0px 10px 10px #888888;
+    margin-top: 30px;
+    background-color: #ece9e9;
+    width: 100%;
+
+}
+
+
+/* Search box */
+
+    #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
